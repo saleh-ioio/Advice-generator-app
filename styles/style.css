@@ -1,0 +1,104 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Overpass", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+.flex {
+  display: flex;
+}
+.flex_jsc_spBtw {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex_jsc_spE {
+  justify-content: space-evenly;
+}
+.flex_jsc_c {
+  justify-content: center;
+}
+.flex_ai_c {
+  align-items: center;
+}
+.flex_dir_col {
+  flex-direction: column;
+}
+
+.fullScrSizeH {
+  height: 100vh;
+}
+
+.container {
+  flex-direction: column;
+  width: 35.0625rem;
+  height: 20.375rem;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1.5rem 3.125rem;
+  background-color: hsl(217deg, 19%, 24%);
+}
+@media (max-width: 63.9375rem) {
+  .container {
+    width: 22rem;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: hsl(193deg, 38%, 86%);
+  font-weight: 800;
+}
+
+p {
+  color: hsl(150deg, 100%, 66%);
+  font-weight: 100;
+}
+
+.button {
+  position: relative;
+  top: -25px;
+  background-color: hsl(150deg, 100%, 66%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 1rem;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px hsl(150deg, 100%, 66%);
+  transition: box-shodow 2s;
+}
+.button:hover {
+  box-shadow: 0px 0px 20px hsl(150deg, 100%, 66%);
+}
+
+@media (max-width: 63.9375rem) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64rem) {
+  .hide-for-desktop {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
